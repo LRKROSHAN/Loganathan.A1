@@ -6,7 +6,7 @@ public class ShieldBehavior : MonoBehaviour
     {
         if (other.CompareTag("PlayerBullet"))
         {
-            Destroy(other.gameObject); // Also destroy the bullet that hit the shield
+            Destroy(other.gameObject); 
         }
         else if (other.CompareTag("EBullet"))
         {
