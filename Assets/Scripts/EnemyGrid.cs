@@ -78,7 +78,7 @@ public class EnemyGridSpawner : MonoBehaviour
     public void EnemyDestroyed()
     {
         enemiesDestroyed++;
-        if (enemiesDestroyed >= totalEnemies) // Use >= to be safe
+        if (enemiesDestroyed >= totalEnemies)
         {
             SceneManager.LoadScene("GameWin");
         }
