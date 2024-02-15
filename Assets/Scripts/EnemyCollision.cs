@@ -6,8 +6,8 @@ public class EnemyCollision : MonoBehaviour
     {
         if (other.CompareTag("Bullet"))
         {
-            Destroy(gameObject); // Destroy this enemy
-            Destroy(other.gameObject); // Optionally, destroy the bullet as well
+            Destroy(gameObject); 
+            Destroy(other.gameObject);
         }
     }
 }
